@@ -17,7 +17,8 @@ sequenceDiagram
     deactivate Server
 
     Browser-->Browser: Reload the page
-    Browser-->Browser: Show the data to the user
+    Browser-->User: Show the data to the user
 
 ```
+
 
