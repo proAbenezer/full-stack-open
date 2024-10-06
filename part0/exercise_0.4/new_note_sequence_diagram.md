@@ -4,7 +4,7 @@ sequenceDiagram
     participant Browser
     participant Server
 
-    User->>Browser: Writing something into the text field
+    User-->>Browser: Writing something into the text field
     User->>Browser: Clicking the submit button
 
     Browser->>Server: POST request to https://studies.cs.helsinki.fi/exampleapp/notes
