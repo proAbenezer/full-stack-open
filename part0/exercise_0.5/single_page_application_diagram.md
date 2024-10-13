@@ -6,7 +6,7 @@
 	Browser->>Server:GET request to the server  https://studies.cs.helsinki.fi/exampleapp/spa
 	activate Server 
 	Server->>Browser: The server sends back an HTML file to the client 
-	deactivate SBrowser: start parsing then rendering the HTML and it encounter Link tag
+	deactivate Server: start parsing then rendering the HTML and it encounter Link tag
 
 
 	Browser->>Server: make a reqeust to get the CSS file 
