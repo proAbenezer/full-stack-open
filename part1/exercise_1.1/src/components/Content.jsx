@@ -1,10 +1,10 @@
 const Content = ({ courseMaterial }) => {
-  const contentElement = courseMaterial.map((course) => (
-    <p>
-      {course.part} {course.exercise}
+  const courseElement = courseMaterial.map((course) => (
+    <p key={course.part}>
+      {course.part} {course.exercises}
     </p>
   ));
-  return <div>{contentElement}</div>;
+  return courseElement;
 };
 
 export default Content;

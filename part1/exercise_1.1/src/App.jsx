@@ -16,11 +16,11 @@ function App() {
   });
 
   return (
-    <div>
+    <>
       <Header course={course} />
       <Content courseMaterial={courseMaterial} />
       <Total total={total} />
-    </div>
+    </>
   );
 }
 
