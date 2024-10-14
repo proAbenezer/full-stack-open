@@ -1,10 +1,9 @@
-const Content = ({ courseMaterial }) => {
-  const courseElement = courseMaterial.map((course) => (
-    <p key={course.part}>
-      {course.part} {course.exercises}
+const Content = (props) => {
+  return (
+    <p>
+      {props.part} {props.exercises}
     </p>
-  ));
-  return courseElement;
+  );
 };
 
 export default Content;
